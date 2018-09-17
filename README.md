@@ -3,6 +3,7 @@
 Configuration Properties | Path
 --- | ---
 C/C++ > General > Additional Include Directories | `$(SolutionDir)External_lib/GLEW/include`<br>`$(SolutionDir)External_lib/GLFW/include`<br>`$(SolutionDir)External_lib/GLM`<br>
+Linker > General > Additional Library Directories Dependencies | `$(SolutionDir)External_lib/GLEW/lib/Release/Win32`<br>`$(SolutionDir)External_lib/GLFW/lib-vc2015`
 Linker > Input > Additional Dependencies | `opengl32.lib`<br>`glfw3.lib`<br>`glew32.lib`
 
 ---
