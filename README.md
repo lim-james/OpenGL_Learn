@@ -175,7 +175,8 @@ parameter | purpose
 return type | name | parameter | purpose
 --- | --- | --- | --- 
 `void` | createCallbacks | `void` | Sets key an cursor position callbacks.
-`void` | `static` handleKeys | `GLFWwindow*` | Sets key an cursor position callbacks.
+`void` | `static` handleKeys | `GLFWwindow*` w<br>`int` key<br>`int` code<br>`int` action<br>`int` mode | Set `keys` to true based on which are pressed.
+`void` | `static` handleMouse | `GLFWwindow*` w<br>`double` xPos<br>`double` yPos | Set `xChange` and `yChange` based on mouse movmements.
 
 > public
 
